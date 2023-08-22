@@ -9,4 +9,24 @@ Use Case Diagrams
 	- Subsystems: normally represented with large rectangular boxes. Clusters of actions.
 	- Relationships: represented by doted lines.
 
+Deployment Diagrams
+
+	Defines the architechture for a system
+    - Nodes: everything is a node. It's the real world component.
+    - Components: kind of rounded rectangle. It's the actual piece of software that manages communication and handles the business logic for the node that it resides on. 
+    - Artifacts: surrounded by the angle brackets. They point to different specific systems: angular, linux. Things are going to be built a certain way because of these.
+    - Links: The links are those lines that are connecting each one of the nodes. 
+    - Dependencies: Dependencies are represented by that dotted line with arrows going in the direction of the node. It shows what other nodes it depends on.
+    - Associations: It is a way of connecting all of the nodes and showing how they're associated.
+
+Package Diagrams
+
+	They carry abstract elements like: 
+	- types
+	- classifiers
+	- other diagrams
+	Your package diagram is something that allows you to take your other different components inside of your system and show how they relate to each other.
+
+
+
 
