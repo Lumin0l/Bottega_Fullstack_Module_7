@@ -1,0 +1,16 @@
+What is a Software System
+
+Two different categories:
+
+high-level system: This is when you're building some type of application, like Twitter or Facebook, or any type of web application.
+	It could also be a mobile application. Anytime that you have an application that users interact with, that is a high-level system. 
+
+Low-level: They are the types of software that an end-user usually will not interact with. 
+	That might be a code library or a Ruby gem. Just because users aren't pressing buttons and typing information doesn't mean it's not a system. 
+
+A software system is a structured and organized collection of interrelated software components that work together to achieve specific goals or provide desired functionalities. 
+It encompasses both the executable code and any associated data, configuration files, documentation, and other artifacts. 
+A software system can range from a simple standalone application to a complex ecosystem of interconnected modules, services, and components, often developed to address specific user needs or solve particular problems. 
+The design, development, deployment, and maintenance of a software system involve careful consideration of its architecture, functionality, performance, security, and usability, among other factors.
+
+Higher level than a program, but a program or aplication in concept.
