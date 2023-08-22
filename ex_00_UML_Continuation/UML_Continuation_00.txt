@@ -27,6 +27,25 @@ Package Diagrams
 	- other diagrams
 	Your package diagram is something that allows you to take your other different components inside of your system and show how they relate to each other.
 
+Sequence Diagrams
+
+	It simplifies by isolating elements in:
+    - Class Roles or Participants: 
+    - Activation or Execution Occurrences: events of something happening.
+    - Messages: name of the message type and it's direction.
+    - Lifelines: dotted lines so we can follow the process and see in which state it is.
+
+State Machine Diagrams
+
+	They visualize what our application (or what a feature of our application) will look like and how it can transition from one state to another state. In actions that can change the state.
+    - entry points: 
+    - choices
+    - constraints
+    - states
+    - transitions.
+
+
+
 
 
 
