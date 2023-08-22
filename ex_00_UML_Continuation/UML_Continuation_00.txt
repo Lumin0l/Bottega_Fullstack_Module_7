@@ -1,0 +1,12 @@
+Continuation to UML
+
+Use Case Diagrams
+
+	4 main elemnts:
+
+	- Use Cases: what actions an actor has access to in the program.
+	- Actors: who or what (can be an API key) takes part in the actions.
+	- Subsystems: normally represented with large rectangular boxes. Clusters of actions.
+	- Relationships: represented by doted lines.
+
+
