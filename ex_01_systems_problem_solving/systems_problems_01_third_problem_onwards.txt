@@ -1,0 +1,32 @@
+Project Three - Phone parser ruby package
+
+	Package Diagram:
+
+		Important to outline dependencies: which packet is independent and which depends on which other.
+
+	Sequence Diagram
+
+		Sequences happen whenver the data changes state. Each sequence will have several stages, action, validation of the action, transmission to next sequence.
+
+
+Project Four - Enterprise Fleet Management System
+	Sometimes it is usefull to start with the behavioral diagram. Sometimes the project is either too complex or it is hard to understand, so the activity diagram will pave the way for the elements that will be neded in the structural one.
+
+	Activity Diagram:
+
+		It's important to mage connections with the branches (the diamonds). Even if it doesn't have a specific decisions, whenever there is more than 1 direction or process (arrow), it should be marked with th diamond.
+
+	Package Diagram:
+
+		The arrows or the dependecies, do not only mark what group or module depends on which, but als which module has access to which.
+		Package diagrams are also best created at the very beginning because they represent a very high level overview of the project.
+
+	Deployment Diagram:
+
+		Learn:
+			- caching
+			- load balancing
+		The caching can be sent to third party services like AWS. You don't want to cache data though, you have to be careful to keep it separate.
+
+
+	
