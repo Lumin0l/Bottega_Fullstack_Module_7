@@ -28,5 +28,23 @@ Project Four - Enterprise Fleet Management System
 			- load balancing
 		The caching can be sent to third party services like AWS. You don't want to cache data though, you have to be careful to keep it separate.
 
+Project Five: Uber
+	Again, starting with the activity diagram will help us understand the elements that will be needed further down development. Then let's do a package diagram to get a high level view of the code and their relationships.
 
+	Activity Diagram
+		
+		Same ol'
+
+	Package Diagram:
+		
+		You should nest dependencies and sub-dependencies.
+		You should also specify which modules are imported (normally with <<import>>)
+
+	Use Case Diagram
+
+		They define the authorization hierarchy: who has access to what actions.
+
+	Deployment Diagram:
+
+		The most important part is the API (at least for mobile). The app can't work without contact with outside data.
 	
