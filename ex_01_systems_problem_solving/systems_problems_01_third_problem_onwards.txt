@@ -47,4 +47,57 @@ Project Five: Uber
 	Deployment Diagram:
 
 		The most important part is the API (at least for mobile). The app can't work without contact with outside data.
+
+Problem six: Learning System
+
+	Activity Diagram: 
+
+		Sometimes it is useful to get the diagram divided in "swimlanes" divided by actor, to better grasp who does what.
+
+	Class Diagram:
+
+		Polymorphic associations. Normally with an empty-head arrow. They are a type of class that has the general attributes of 2 separate classes.
+		For example: if we have user, teacher and student. Both teacher and student are users.
+
+	State Machine:
+
+		Traces the different states of the data and which actions make them change states. It is important to be specific, and sometimes the actions will be bidirectional.
+
+	Deployment Diagram:
+
+		It is important to set different servers of production, with different testers for the app. First CI (Continuous Integration) server, where all devs can upload the project.
+		Then staging, where some stability checks will happem, pre-production, and finally production.
+
+Problem seven: Marketing Automation System
+	As always start by the highest level digram and progressively make it more specific.
+
+	Use Case:
+
+		Top diagram to get a high level view of all the actors and the different actions the perform.
+		As stated before, this type of diagrams focuses on the actors and the permissions/authorisations they have to take actions.
+
+	Activity Diagram:
+
+		As well as decision forks, we also have bifurcation forks: forks that trigger 2 processes at the same time, maybe one in the backround of the other, but 2 at the same time.
+		
+	Package Diagram:
+
+		Sometimes you'll have to nest other packages inside your package. Perfectly normal and it's done.
+
+	Deployment Diagram:
+
+		Important to take into account the different outside tools that we integrate in the app. Maybe in a different visual way.
+
+	State Machine:
+
+		Sometimes you'll need forks to control the change of states, because the state can change in differentways depending on the trigger.
+		Maybe for your app, it is more usefull to focus on the state of a single actor instead of the whole context, to have a better following of the situation.
+
+	Class Diagram:
+
+		Learn more about inheritance. 
+		Normally we make our relationships like this: "1 -> *". Sometimes, there will be many OR NONE, like the class will exist even if there is no relation on the other side. Then we do "1 -> 0..".
+
+
+	
 	
