@@ -18,9 +18,17 @@ Key to the application. As we said, React works by creating many single componen
 From the get-go you'll have the app.js component, which is the **parent component** and all of the other components will be nested inside this one.
 
 ### Styles
-This is where we put our styling files, mainly scss and sass
+This is where we put our styling files, mainly scss and sass.
 
+## Static -> Static
 
+It's where we put our files and elements that don't change, like images and icons as well as where the actual HTML file will be created, since browsers still work on HTML.
+
+### Assets
+The file where we actually store the assets like images and icons.
+
+### index.html
+The HTML file. The only thing you can see is the div **app-wrapper**. react will stick all the code we create here dynamically. We can still change the title and other metadata here.
 
 ### Other files:
 **Bootstrap**: not the framework. This is just the entry point or the base JS file, where we load all the critical stuff, like the very "React" and other critical components.
