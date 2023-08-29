@@ -16,3 +16,4 @@ There is some considerations to have when defining components. There is function
 
 ## Other Elements
 **Custom Functions**: helper functions that do specific tasks.
+**State**: marks the state of the component.
