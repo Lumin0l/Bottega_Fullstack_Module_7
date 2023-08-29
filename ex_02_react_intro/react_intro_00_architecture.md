@@ -46,4 +46,7 @@ In the _"scripts"_ key we can find the actual commands that we get when we type 
 It also contains a list of the dependencies the project needs to work and their versions.
 **package-lock.json**: in the _"package-lock.json"_ we can find the metadata of the modules that we are actually using, because we can have small security updates and stuff and those get registered in the file. **Important** never touch the _"package-lock"_ file, it gets updated automatically.
 
+**Prokfile**: sets some instructions for deployment.
+**Server.js**: sets the conditions of what will be needed when getting the project to production.
+
 [^1]: Some will be developed later on.
