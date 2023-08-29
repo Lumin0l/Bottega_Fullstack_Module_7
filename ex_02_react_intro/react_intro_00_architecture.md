@@ -32,5 +32,10 @@ The HTML file. The only thing you can see is the div **app-wrapper**. react will
 
 ### Other files:
 **Bootstrap**: not the framework. This is just the entry point or the base JS file, where we load all the critical stuff, like the very "React" and other critical components.
+**env.j**: it's a place where you can store information that you want hidden, like API Keys and so on. It has a couple file called "env.example.js" that can show the structure of it without the actual info. We can change the port for the localhost. Sometimes you want to do that in order to run several apps at the same time in case you're working on more than one.
+**LICENSE**: specifies the license.
+
+**package.json**: the ultimate configuration file, it stores multiple configuration elements. It's important to know that it works in *json*, so every string needs double-quotes **""**. It also needs to have no final comma in the last element to work. It works more or less like objects, with key-value pairs.
+In the *"scripts"* key we can find the actual commands that we get when we type *"npm <command>"*
 
 [^1]: Some will be developed later on.
