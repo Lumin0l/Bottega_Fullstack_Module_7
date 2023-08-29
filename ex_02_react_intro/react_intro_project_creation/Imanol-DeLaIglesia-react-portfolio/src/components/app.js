@@ -8,6 +8,7 @@ export default class App extends Component {
     super();
     console.log("Portfolio container has rendered!")
   }
+
   render() {
       return (
         <div className='app'>

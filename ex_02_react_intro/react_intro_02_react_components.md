@@ -13,3 +13,6 @@ There is some considerations to have when defining components. There is function
 **Class Component**: these are the more complex types of components. They are use to produce "states" or "lifecycle hooks" and so on.
 **Functional Components**: these are the more simple ones. Basic functions that are meant to just render elements.
 **Constructor**: the constructor is a function that triggers first when rendering the class (when instantiated). It needs the method "**super()**" in order to work.
+
+## Other Elements
+**Custom Functions**: helper functions that do specific tasks.
