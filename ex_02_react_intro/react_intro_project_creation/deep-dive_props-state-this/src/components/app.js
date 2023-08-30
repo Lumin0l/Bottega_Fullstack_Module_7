@@ -7,9 +7,8 @@ export default class App extends Component {
       <div className='app'>
         <h1>Deep dive: Props, State and This</h1>
         <JournalList heading="List 1"/>
+        <div> ----------------------------------------</div>
         <JournalList heading="List 2"/>
-        <JournalList heading="List 3"/>
-        <JournalList heading="List 4"/>
       </div>
     );
   }
