@@ -8,6 +8,15 @@ const rawJournalData = [
   { title: 'Post Four', content: 'Post content', status: 'draft' },
 ];
 
+// Functional component
+const JournalEntry = props => {
+	return (
+		<div>
+			<h2>{props.title}</h2>
+			<p>{props.content}</p>
+		</div>
+	);
+}
 
 // Class component
 export default class JournalList extends Component {
@@ -21,6 +30,11 @@ export default class JournalList extends Component {
 		};
 	}
   render() {
-	return <h2>{this.props.heading}</h2>
+	return (
+		<div>
+			<h2>{this.props.heading}</h2>
+			<JournalEntry title="Cool Title" content="Nice Content" /> 
+		</div>
+	);
   }
 }
