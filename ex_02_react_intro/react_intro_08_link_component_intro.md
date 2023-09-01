@@ -4,7 +4,7 @@ A way to create links inside our documents.
 
 It's like the NavLink thing, but instead of being a button is a simple link. It doesn't have as many attributes as NavLink, such as active and so on.
 
-We can pick the links following this example: First we pass the data ` <PortfolioItem title={item.title} url={"google.com"} slug={item.slug} />` and then we output the link: ` <Link to={``/portfolio/${props.slug}```}>Link</Link> `
+We can pick the links following this example: First we pass the data ` <PortfolioItem title={item.title} url={"google.com"} slug={item.slug} />` and then we output the link: ` <Link to={``/portfolio/${props.slug}``}>Link</Link> `
 
 ## Slugs
 
