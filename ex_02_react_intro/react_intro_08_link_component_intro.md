@@ -28,3 +28,8 @@ this.state = {
       ]
     };
 ```
+
+## Bad Links Protection:
+In order to give a more informative 404, we set an emply route **at the end of the routes list**. Works kind of like an "else". If you didn't find any of the above, enter here.
+
+It follows this example: `<Route component={NoMatch} />` and in "NoMatch" we create the custom error page.
