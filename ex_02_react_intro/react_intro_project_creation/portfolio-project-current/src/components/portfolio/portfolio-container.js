@@ -45,7 +45,7 @@ export default class PortfolioContainer extends Component {
       console.log('Console Log number 2: item data:', item);
       
       return (
-        <PortfolioItem title={item.name} url={item.url} slug={item.id} />
+        <PortfolioItem key={item.id} title={item.name} url={item.url} slug={item.id} />
       );
     });
   }

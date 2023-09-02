@@ -55,4 +55,6 @@ It also contains a list of the dependencies the project needs to work and their 
 
 **Return**: Just like in JS, the return value for components **only allows one return element**. So, it will only return a single JSX div per return statement. If you wanna return more than one element it will need to be all wrapped inside a parent div.
 
+**Key**: a Key prop is a necessary way for react to track dynamically generated elements, for example, coming from an API. The key should be unique in order to avoid conflicts. Example: PortfolioItem **key={item.id}** title={item.name} url={item.url} slug={item.id}
+
 [^1]: Some will be developed later on.
